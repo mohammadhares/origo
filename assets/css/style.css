@@ -1,3 +1,7 @@
+*{
+    font-family: 'Arial';
+}
+
 ul{
     width: 80%;
 }
@@ -114,19 +118,186 @@ ul li:first-child{
     right: 100px;
 }
 
-
-
 .banner-title{
     text-align: center;
-    position: absolute;
-    top: 270px;
-    left: 650px;
+    margin-top: 200px;;
 }
 
 .banner-title h1{
-    font-size: 11vh;
+    font-size: 8vh;
     font-weight: bolder;
 }
 
 
+/* About US */
+.about{
+    text-align: center;
+}
 
+.about .content{
+    width: 60%;
+    margin:200px auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgb(242, 242, 242);
+    padding-bottom: 100px;
+}
+
+.about_title{
+    padding: 30px 0px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.about_subtitle{
+    font-weight: bold;
+}
+
+.about .content p{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+
+.about-img{
+    padding: 30px;
+}
+
+.about-img img{
+    opacity: 0.9;
+}
+
+.custom-btn{
+    border: 1px solid green;
+    border-radius: 0px;
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.custom-btn:hover{
+    transition: all 0.4s ease;
+    color: #fff;
+    background-color: green;
+}
+
+.product h4{
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding: 70px;
+    padding-bottom: 120px;
+}
+
+.product img{
+    width: 60%;
+    margin: auto;
+    height: 180px;
+}
+
+.product p{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.product-btn{
+    padding: 70px;
+}
+
+.cards h5{
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.cards h1{
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
+.cards{
+    padding-bottom: 200px;
+}
+
+.card_img{
+    margin-top: 70px;
+}
+
+.card_img h3{
+    margin-top: 20px;
+}
+
+.card_img h3 , .card_img p{
+    font-size: 28px;
+}
+
+.card_img p{
+    color: #aaa;
+}
+
+.team{
+    padding: 120px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.item h6{
+    color: orange;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.item h5{
+    color: lightsalmon
+}
+
+.item p{
+    padding: 10px 70px;
+    font-size: 20px;
+    color: green;
+}
+
+.contact{
+    padding: 150px;
+    background-color: rgb(250, 239, 220);
+    z-index: -999;
+    margin-top: 8px;
+}
+
+.contact h1{
+    font-weight: bolder;
+}
+
+.contact p{
+    font-size: 18px;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.form{
+    width: 30%;
+    margin: 10px auto;
+}
+
+.custom-input{
+    margin-top: 20px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.contact .btn{
+   margin-top: 40px;
+   padding-left: 60px !important;   
+   padding-right: 60px !important;
+}
+
+footer{
+    background-color: rgb(28, 21, 16 );
+    color: #fff;
+    padding: 70px 20px;
+}

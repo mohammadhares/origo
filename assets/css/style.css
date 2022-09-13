@@ -1,0 +1,132 @@
+ul{
+    width: 80%;
+}
+
+ul li{
+    margin-left: 7%;
+}
+
+ul li:first-child{
+    margin-left: 20%;
+}
+
+.custom-navbar li a{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.leading p{
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #71c06c;
+}
+
+.leading{
+    padding: 10px;
+}
+
+.navbar{
+    background: #fff !important;
+    border-bottom: 1px solid rgba(109, 121, 121, 0.267);
+}
+
+.logo{
+    font-weight: bolder;
+    font-size: 28px;
+    padding-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#pruple_circle_1{
+    position: absolute;
+    top: -30px;
+    z-index: -99;
+    right: 300px;
+}
+
+#green_circle_1{
+    position: absolute;
+    top: 200px;
+    right: -150px;
+}
+
+#green_circle_2{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+#orange_circle_1{
+    position: absolute;
+    top: 500px;
+    left: -100px;
+}
+
+#orange_circle_2{
+    position: absolute;
+    top: 800px;
+    left: 600px;
+}
+
+#red_circle_1{
+    position: absolute;
+    top: 500px;
+    right: 20px;
+}
+
+#orange_line_1{
+    position: absolute;
+    top: 130px;
+    left: 45px;
+}
+
+#green_line_1{
+    position: absolute;
+    top: 130px;
+    right: 130px;
+}
+
+#green_line_2{
+    position: absolute;
+    top: 420px;
+    left: -180px;
+}
+
+#black_line_1{
+    position: absolute;
+    top: 550px;
+    left: 200px;
+    z-index: -9;
+}
+
+#pink_line_1{
+    position: absolute;
+    top: 550px;
+    right: 500px;
+}
+
+#gray_line_1{
+    position: absolute;
+    top: 550px;
+    right: 100px;
+}
+
+
+
+.banner-title{
+    text-align: center;
+    position: absolute;
+    top: 270px;
+    left: 650px;
+}
+
+.banner-title h1{
+    font-size: 11vh;
+    font-weight: bolder;
+}
+
+
+

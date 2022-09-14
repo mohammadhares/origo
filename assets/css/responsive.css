@@ -24,7 +24,7 @@
     }
 
     .form {
-        width: 80%;
+        width: 100%;
     }
 
     .contact {
@@ -68,6 +68,44 @@
         width: 100%;
     }
 
-   
+   .banner-title h1{
+        font-size: 40px;
+   }
 
+   .about p{
+        font-size: 24px !important;
+   }
+
+   .about .custom-btn{
+        font-size: 18px !important;
+   }
+
+   .product h4{
+    font-size: 18px !important;
+   }
+
+   .product p{
+    font-size: 18px;
+   }
+
+   .product .custom-btn{
+        font-size: 16px !important;
+   }
+
+   .cards h5, .cards h3, .cards p , .team h4, .team p{
+    font-size: 18px !important;
+   }
+
+   .cards h1{
+    font-size: 24px !important;
+    font-weight: bolder;
+   }
+
+   .contact .custom-btn{
+    font-size: 18px !important;
+   }
+
+   .contact p{
+    font-size: 16px;
+   }
 }

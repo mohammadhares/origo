@@ -1,0 +1,20 @@
+@media screen and (max-width: 980px) {
+    .leading{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .about .content{
+        width: 90%;
+        margin: 200px auto;
+    }
+
+    .about-img{
+        width: 100%;
+    }
+
+    .custom-btn{
+        width: 100%;;
+    }
+}

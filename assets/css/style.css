@@ -467,3 +467,16 @@ footer{
     right: 150px;
     margin-top: 200px;
 }
+
+#contact_green_line_1{
+    position: absolute;
+    right: 0px;
+    margin-top: -380px;
+}
+
+#contact_green_line_2{
+    position: absolute;
+    left: 0px;
+    z-index: 99;
+    margin-top: -50px;
+}

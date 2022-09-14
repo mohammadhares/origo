@@ -44,6 +44,13 @@
     #orange_circle_1,
     #green_line_2,
     #about_green_2,
+    #contact_green_line_2,
+    #contact_green_2,
+    #contact_pruple_1,
+    #contact_orange_1,
+    #contact_red_1,
+    #contact_green_line_1,
+    #contact_green_1,
     #pink_line_1 {
         display: none;
     }
@@ -60,5 +67,7 @@
     .card_img img{
         width: 100%;
     }
+
+   
 
 }

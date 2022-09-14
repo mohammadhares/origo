@@ -48,6 +48,8 @@
 /* About US */
 .about{
     text-align: center;
+    margin-top: 500px;
+    z-index: 999;
 }
 
 .about .content{
@@ -147,6 +149,8 @@
     margin-top: 70px;
 }
 
+
+
 .card_img h3{
     margin-top: 20px;
 }
@@ -162,6 +166,8 @@
 .team{
     padding: 120px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 200px;
+    z-index: 999999999;
 }
 
 .team h4{
@@ -220,10 +226,9 @@
     text-align: center;
 }
 
-.contact .btn{
+.contact .custom-btn{
    margin-top: 40px;
-   padding-left: 60px !important;   
-   padding-right: 60px !important;
+   width: 100%;
 }
 
 footer{
@@ -231,6 +236,52 @@ footer{
     color: #fff;
     padding: 70px 20px;
 }
+
+
+.footer-left{
+    padding: 30px;
+}
+
+.footer-left ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-left ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right{
+    padding: 0px 100px;
+}
+
+.footer-right ul{
+    list-style: none;
+}
+
+.footer-right .footer-btn{
+   background-color: rgb(94, 170, 103);
+   color: white;
+   padding-left: 50px;
+   padding-right: 50px;
+   width: 100%;
+   margin: 20px;
+   border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu{
     background-color: rgb(242, 242, 242);
@@ -263,6 +314,7 @@ footer{
 
 
 
+
 #pruple_circle_1{
     position: absolute;
     top: -30px;
@@ -273,7 +325,7 @@ footer{
 #green_circle_1{
     position: absolute;
     top: 200px;
-    right: -150px;
+    right: 0px;
 }
 
 #green_circle_2{
@@ -292,6 +344,7 @@ footer{
     position: absolute;
     top: 800px;
     left: 600px;
+    z-index: -9;
 }
 
 #red_circle_1{
@@ -329,12 +382,14 @@ footer{
     position: absolute;
     top: 550px;
     right: 500px;
+    z-index: -9;
 }
 
 #gray_line_1{
     position: absolute;
     top: 550px;
     right: 100px;
+    z-index: -9;
 }
 
 .banner-title{
@@ -345,4 +400,70 @@ footer{
 .banner-title h1{
     font-size: 8vh;
     font-weight: bolder;
+}
+
+
+/* About Patterns */
+#about_green_1{
+    position: absolute;
+    left: -120px;
+    margin-top: -350px;
+    z-index: -9;
+}
+
+#about_green_2{
+    position: absolute;
+    left: 200px;
+    margin-top: -650px;
+    z-index: -9;
+}
+
+#product_green_1{
+    position: absolute;
+    right: 0;
+    z-index: -9;
+    margin-top: -100px;
+}
+
+#card_red_1{
+    position: absolute;
+    left: -120px;
+    z-index: -9;
+    margin-top: -100px;
+}
+
+#card_pruple_1{
+    position: absolute;
+    margin-top: 185px;
+    z-index: -99;
+}
+
+#contact_pruple_1{
+    position: absolute;
+    left: -130px;
+    margin-top: 400px;
+}
+
+#contact_green_2{
+    position: absolute;
+    left: 100px;
+}
+
+#contact_red_1{
+    position: absolute;
+    right: 100px;
+    margin-top: -158px;
+    z-index: 0;
+}
+
+#contact_green_1{
+    position: absolute;
+    right: 0;
+    margin-top: -280px;
+}
+
+#contact_orange_1{
+    position: absolute;
+    right: 150px;
+    margin-top: 200px;
 }

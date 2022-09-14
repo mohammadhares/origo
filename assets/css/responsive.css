@@ -1,20 +1,64 @@
 @media screen and (max-width: 980px) {
-    .leading{
+    .leading {
         width: 100%;
         text-align: center;
         margin-top: 20px;
     }
 
-    .about .content{
+    .about .content {
         width: 90%;
         margin: 200px auto;
     }
 
-    .about-img{
+    .about-img {
         width: 100%;
     }
 
-    .custom-btn{
-        width: 100%;;
+    .custom-btn {
+        width: 100%;
+        ;
     }
+
+    .team {
+        padding: 50px;
+    }
+
+    .form {
+        width: 80%;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+    .footer-right {
+        padding: 30px;
+    }
+
+    #orange_circle_2,
+    #green_circle_1,
+    #green_circle_2,
+    #orange_line_1,
+    #green_line_1,
+    #black_line_1,
+    #orange_circle_1,
+    #green_line_2,
+    #about_green_2,
+    #pink_line_1 {
+        display: none;
+    }
+
+    #gray_line_1 {
+        position: absolute;
+        left: 0;
+        top: 450px;
+        right: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .card_img img{
+        width: 100%;
+    }
+
 }

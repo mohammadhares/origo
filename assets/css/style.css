@@ -273,8 +273,24 @@ footer{
 
 
 
+/* The Science Page */
 
+.science_banner{
+    min-height: 600px;
+    width: 100%;
+    background-color: rgb(94, 170, 103);
+    margin-top: 70px;
+}
 
+.science_banner .content{
+    padding: 150px 150px 0px 0px;
+}
+
+.science_banner .content h1{
+    font-weight: bolder;
+    margin-top: 120px;
+    font-size: 55px;
+}
 
 
 
@@ -286,6 +302,8 @@ footer{
 .menu{
     background-color: rgb(242, 242, 242);
     z-index: 99 !important;
+    position: relative;
+    top: 70px;
 }
 
 .menu-item{
@@ -296,21 +314,136 @@ footer{
     font-size: 18px;
 }
 
-.slide{
+
+
+
+/* Product Page */
+
+.product-banner{
+    min-height: 600px;
+    width: 100%;
+    background-color: rgb(234, 175, 70);
+    margin-top: 70px;
+}
+
+.product-banner .banner-content{
+    padding: 70px;
+}
+
+.banner-content h1{
+    font-weight: bolder;
+    font-size: 55px;
+}
+
+.banner-content p{
+    font-weight: bold;
+    padding-right: 100px;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.product-category{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.category-btns a{
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    color: #333;
+    margin: 10px;
+}
+
+.active{
     background-color: rgb(94, 170, 103);
-    height: 600px;
-    text-align: right;
+    border: 2px solid rgb(94, 170, 103) !important;
 }
 
-.slide img{
-    width: 700px;
-    position: relative;
-    top: -50px;
-    z-index: -999;
+.product-list{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
+.product-list .row{
+    margin-bottom: 100px;
+}
+
+.product-list .images{
+    text-align: center;
+}
+
+.product-list .images img{
+    width: 80%;
+    margin: auto;
+}
+
+.title h4{
+    font-weight: bold;
 }
 
 
+/* Business  */
+
+.business-banner{
+    width: 100%;
+    min-height: 500px;
+    background: rgb(229, 92 , 92);
+    margin-top: 70px;
+}
+
+.business-banner .title{
+    margin-top: 200px;
+}
+
+.business-banner .title h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.business-about .content{
+    padding: 220px 70px;
+}
+
+.business-about .content h3{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+}
+
+.business-about .content h1{
+    padding-right: 50px;
+    font-weight: bolder;
+}
+
+.business-about .content p{
+    padding: 50px 120px 50px 0px;
+    font-weight: bold;
+}
+
+.about-btn{
+    padding: 0;
+    margin: 0;
+}
+
+.about-btn .custom-btn{
+    width: 70%;
+}
+
+.business-gallary img{
+    width: 100%;
+}
+
+.business-gallary .container .row{
+    margin: 50px !important;
+}
+
+.about-micro{
+    background-color: rgb(250, 239 , 220);
+}
 
 
 

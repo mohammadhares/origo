@@ -292,6 +292,92 @@ footer{
     font-size: 55px;
 }
 
+.science_item_1{
+    padding-right: 40%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.science_item_2{
+    padding-right: 40%;
+    font-size: 42px;
+}
+
+.science-info .row{
+    margin: 10px;
+}
+
+.science-info{
+    margin: 130px 0px;
+}
+
+
+.invented{
+    background-color: rgb(250, 239, 220);
+    padding: 120px 10px;
+}
+
+.invented .number{
+    font-size: 12vh;
+    font-weight: bold;
+    color: rgb(146, 123, 191);
+}
+
+.invented .number_sub{
+    margin-left: 350px;
+}
+
+.invented .number_sub h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(146, 123, 191);
+}
+
+.invented .part_2 .number, .invented .part_2 .number_sub h2{
+    color: rgb(94, 170, 103) !important;
+}
+
+
+.product_lifecycle .content{
+    width: 40%;
+    padding: 120px 10px;
+}
+
+.btn-content{
+    width: 70% !important;
+}
+
+.product_lifecycle .content h2{
+    letter-spacing: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product_lifecycle .content h1{
+    font-size: 32px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+.product_lifecycle .content p{
+    padding-right: 100px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.product_vedio .content{
+    background-color: rgb(221, 221, 221);
+    padding: 80px;
+    height: 650px;
+}
+
+.content h1{
+    color: rgb(94, 170, 103);
+    font-size: 8vh;
+    font-weight: bolder;
+}
+
+
 
 
 

@@ -16,7 +16,7 @@
 
 <body>
     <!-------------------------------------------- Start Navbar ---------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top dark ">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link" aria-current="page" href="#">The Science </a>
+                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="#">Our Products</a>
+                            <a class="nav-link dark" href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="#">For Businesses</a>
+                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="#">For Investors</a>
+                            <a class="nav-link dark" href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -48,6 +48,10 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
+                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
+                    Dark Mode
+                </div>
+                <input type="hidden" name="" id="viewMode" value="1">
             </div>
         </div>
     </nav>

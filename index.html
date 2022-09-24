@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
-<body>
+<body class="dark">
     <!-------------------------------------------- Start Navbar ---------------------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top dark ">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,16 +29,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link" aria-current="page" href="#">The Science </a>
+                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="product.html">Our Products</a>
+                            <a class="nav-link dark" href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="#">For Businesses</a>
+                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link" href="#">For Investors</a>
+                            <a class="nav-link dark" href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -47,6 +47,10 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
+                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
+                    Dark Mode
+                </div>
+                <input type="hidden" name="" id="viewMode" value="1">
             </div>
         </div>
     </nav>
@@ -73,23 +77,23 @@
         <img src="assets/img/gray_line.png" id="gray_line_1" alt="">
     </section>
 
-    <section class="about">
-        <div class="content">
+    <section class="about ">
+        <div class="content brown">
             <h3 class="about_title">ABOUT US</h3>
-            <h2 class="about_subtitle">Origo is Latin for return to origin.</h2>
-            <p>We Make disposable food-grade</p>
-            <p>products that last just as long as you</p>
-            <p>need. Then they biodegrade - </p>
-            <p>completely and naturally.</p>
+            <h2 class="about_subtitle light">Origo is Latin for return to origin.</h2>
+            <p class="light">We Make disposable food-grade</p>
+            <p class="light">products that last just as long as you</p>
+            <p class="light">need. Then they biodegrade - </p>
+            <p class="light">completely and naturally.</p>
             <div class="about-img">
                 <img src="assets/img/animation_disintegrate1.png" class="img img-responsive" alt="">
             </div>
             <div class="about-btns">
-                <a href="" class="btn custom-btn">
+                <a href="" class="btn custom-btn light">
                     Consumer Products
                 </a>
                 <br>
-                <a href="" class="btn custom-btn">
+                <a href="" class="btn custom-btn light">
                     Corporate Solutions
                 </a>
             </div>
@@ -121,7 +125,7 @@
                 </div>
             </div>
             <div class="product-btn text-center">
-                <a href="" class="btn custom-btn">
+                <a href="" class="btn custom-btn light">
                     Learn About The Science
                 </a>
             </div>
@@ -159,7 +163,7 @@
     </section>
 
 
-    <section class="team">
+    <section class="team brown">
         <h4 class="text-center">WHAT OUR CUSTOMERS SAY</h4>
         <div class="container  text-center">
             <div class="row">
@@ -206,7 +210,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact dark">
         <img src="assets/img/half_left_green.png" id="contact_green_line_2" alt="">
         <img src="assets/img/purple_circle.png" id="contact_pruple_1" alt="">
         <img src="assets/img/green_circle.png" id="contact_green_2"alt="">
@@ -227,7 +231,7 @@
                     </select>
                     <textarea class="form-control custom-input"  cols="30" rows="10">Type Your Enquery Here 
                     </textarea>
-                    <button class="btn custom-btn">
+                    <button class="btn custom-btn light">
                         Submit Your Enquery
                     </button>
                 </form>

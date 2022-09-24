@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Navbar */
 .nav-link{
     cursor: pointer;
@@ -26,7 +28,7 @@
 }
 
 .navbar{
-    background: #fff !important;
+    background: #fff;
     border-bottom: 1px solid rgba(109, 121, 121, 0.267);
 }
 
@@ -76,7 +78,7 @@
     font-size: 32px;
     margin: 0;
     padding: 0;
-    color: black !important;
+    color: black;
     margin-bottom: -5px;
 }
 
@@ -334,7 +336,7 @@ footer{
 }
 
 .invented .part_2 .number, .invented .part_2 .number_sub h2{
-    color: rgb(94, 170, 103) !important;
+    color: rgb(94, 170, 103);
 }
 
 
@@ -371,7 +373,7 @@ footer{
     height: 650px;
 }
 
-.content h1{
+.product_vedio .content h1{
     color: rgb(94, 170, 103);
     font-size: 8vh;
     font-weight: bolder;
@@ -532,6 +534,160 @@ footer{
 }
 
 
+/* Investor Page */
+
+.investor-banner{
+    background-color: rgb(146, 123, 191);
+    height: 600px;
+}
+
+.investor-banner .content{
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.investor-banner .content h1{
+    font-size: 7vh;
+    font-weight: bolder;
+}
+
+.invest-about{
+    padding: 80px 10px;
+}
+
+.invest-about h1{
+    font-weight: bold;
+    margin: 70px 0px;
+}
+
+.invest-about .invest-item h2{
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.invest-about .invest-item p{
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+.invest-capablities .img-group div img{
+    width: 95%;
+}
+
+.invest-capablities .content{
+    padding: 80px 30px;
+}
+
+.invest-capablities .content h2{
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 20px;
+}
+
+.invest-capablities .content h1{
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.invest-capablities .content p{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+
+.clients{
+    margin: 200px 10px;
+}
+
+.clients h2{
+    letter-spacing: 8px;
+    font-size: 24px;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+
+.clients .clients-logo .row{
+    margin: 20px 0px;
+    vertical-align: center;
+}
+
+.management-team{
+    padding: 180px 50px;
+    background-color: rgb(242 , 242, 242);
+}
+
+.management-team .content{
+    text-align: center;
+}
+
+.management-team .content .team-img img{
+    border-radius: 50%;
+}
+
+.management-team .content .team-name{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.management-team .content h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.management-team .content p{
+    padding: 10px 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.management-team .main-title{
+    letter-spacing: 12px;
+    font-weight: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.prees-section{
+    padding: 100px 10px;
+}
+
+.prees-section h3{
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+
+.prees-section .content .press-img img{
+    width: 100%;
+}
+
+.prees-section .content .content-date{
+    font-weight: bold;
+    color: #888;
+    margin: 20px 0px;
+}
+
+.prees-section .content h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.prees-section .content p{
+    padding-right: 20px;
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.prees-section .content{
+    border-bottom: 2px solid #aaa;
+}
+
+
+.mode{
+    cursor: pointer;
+    padding-right: 20px;
+}
 
 
 #pruple_circle_1{
@@ -698,4 +854,23 @@ footer{
     left: 0px;
     z-index: 99;
     margin-top: -50px;
+}
+
+
+
+
+
+
+.primary-dark-color{
+    background: rgb(28, 21, 16) !important;
+    color: white !important;
+}
+
+.secondary-dark-color{
+    background-color: rgb(47, 37, 27) !important;
+    color: white !important;
+}
+
+.light-color{
+    color: #fff !important;
 }

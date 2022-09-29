@@ -278,7 +278,7 @@ footer{
 /* The Science Page */
 
 .science_banner{
-    min-height: 600px;
+    height: 600px;
     width: 100%;
     background-color: rgb(94, 170, 103);
     margin-top: 70px;
@@ -389,7 +389,7 @@ footer{
 
 .menu{
     background-color: rgb(242, 242, 242);
-    z-index: 99 !important;
+    z-index: 100 !important;
     position: relative;
     top: 70px;
 }
@@ -873,4 +873,76 @@ footer{
 
 .light-color{
     color: #fff !important;
+}
+
+
+.sub-item-active{
+    color: rebeccapurple;
+}
+
+#science_top_ban{
+    position: absolute;
+    width: 40%;
+    top: 0;
+}
+
+#banner_orange_circle{
+    position: absolute;
+    top: 0;
+    left: -120px;
+}
+
+#banner_red_circle{
+    position: absolute;
+    right: 650px;
+    top: 500px;
+    z-index: 99;
+}
+
+#banner_purple_circle{
+    position: absolute;
+    right: 100px;
+    top: 0;
+    z-index: 99;
+}
+
+#invent_purple_circle{
+    position: absolute;
+    right: 100px;
+    margin-top: -230px;
+}
+
+#invent_orange_circle{
+    position: absolute;
+    right: 300px;
+    margin-top: -200px;
+}
+
+#invent_red_circle{
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+
+#invent_green_circle{
+    position: absolute;
+    right: 0;
+    margin-top: -120px;
+}
+
+#product_purple_circle_2{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+
+#product_purple_circle_1{
+    position: absolute;
+    top: 150px;
+}
+
+#product_green_circle{
+    position: absolute;
+    right: 150px;
+    margin-top: -140px;
 }

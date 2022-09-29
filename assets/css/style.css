@@ -946,3 +946,37 @@ footer{
     right: 150px;
     margin-top: -140px;
 }
+
+#business_green_circle_1{
+    position: absolute;
+    right: 0;
+    margin-top: 100px;
+}
+
+#business_purple_circle{
+    position: absolute;
+    right: 200px;
+    margin-top: -220px;
+}
+
+
+#business_orange_circle{
+    position: absolute;
+    left: -150px;
+    margin-top: 200px;
+}
+
+#business_red_circle{
+    position: absolute;
+    right: 250px;
+    margin-top: -100px;
+    z-index: -999;
+}
+
+#business_green_circle{
+    position: absolute;
+    left: 250px;
+    margin-top: -200px;
+    z-index: -999;
+
+}

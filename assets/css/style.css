@@ -978,5 +978,10 @@ footer{
     left: 250px;
     margin-top: -200px;
     z-index: -999;
+}
 
+#business_orange_circle_2{
+    position: absolute;
+    top: -30px;
+    left: -150px;
 }

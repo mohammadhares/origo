@@ -1,4 +1,75 @@
 @media screen and (max-width: 980px) {
+
+    /* Home */
+
+    .about .about_title{
+        letter-spacing: 3px;
+        font-size: 25px;
+    }
+
+    .about .about_subtitle{
+        letter-spacing: 2px;
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .about .content p{
+        font-size: 16px !important;
+    }
+
+    .about .about-btns{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .custom-btn{
+        width: 100% !important;
+        margin: auto;
+        display: block !important;
+    }
+
+    .product h4{
+        letter-spacing: 3px !important;
+        font-size: 35px !important;
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    .cards h5{
+        letter-spacing: 2px;
+    }
+
+    .team h4{
+        letter-spacing: 2px;
+    }
+
+    .team .item p{
+        padding: 0;
+        margin: 30 0;
+    }
+
+    .about-btn{
+        width: 100% !important;
+    }
+
+    .btn-product{
+        width: 100% !important;
+    }
+
+
+    .product-btn{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    #status{
+        text-align: center;
+        margin: 10px;
+    }
+
     .leading {
         width: 100%;
         text-align: center;
@@ -112,9 +183,9 @@
 
 
 @media screen and (max-width: 1800px) {
-    body{
+    /* body{
         background-color: tomato !important;
-    }
+    } */
 
     .menu{
         top: 90px;
@@ -129,9 +200,9 @@
 
 
 @media screen and (max-width: 1000px) {
-    body{
+    /* body{
         background-color: dodgerblue !important;
-    }
+    } */
 
     .menu{
         top: 70px;
@@ -269,9 +340,9 @@
 
 
 @media screen and (max-width: 400px) {
-    body{
+    /* body{
         background-color: yellowgreen !important;
-    }
+    } */
 
     .menu{
         top: 70px;

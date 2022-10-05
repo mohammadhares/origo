@@ -20,8 +20,13 @@ function darkMode(){
         light[i].style.transition = "all 1s ease";
     }
 
-    localStorage.setItem('viewMode', 2);
     document.querySelector("#status").innerHTML = "<div class='mode' onclick='lightMode()'><i class='fa fa-sun-o'></i></div>";
+    document.querySelector("#dark-logo").style.display = "none";
+    document.querySelector("#light-logo").style.display = "block";
+    document.querySelector(".navbar-toggler").style.backgroundColor = "rgb(61, 56, 51)";
+
+
+    localStorage.setItem('viewMode', 2);
 }
 
 
@@ -42,13 +47,17 @@ function  lightMode() {
         light[i].classList.remove('light-color')
     }
 
-    localStorage.setItem('viewMode', 1);
-
     document.querySelector("#status").innerHTML = "<div class='mode' onclick='darkMode()'><i class='fa fa-moon-o'></i></div>";
+
+    document.querySelector("#dark-logo").style.display = "block";
+    document.querySelector("#light-logo").style.display = "none";
+    document.querySelector(".navbar-toggler").style.backgroundColor = "#fff";
+
+    localStorage.setItem('viewMode', 1);
 }
 
 
-var status = localStorage.getItem('viewMode');
+let status = localStorage.getItem('viewMode');
 if (status == 2){
     darkMode();
 }else{

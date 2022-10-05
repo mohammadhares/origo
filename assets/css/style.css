@@ -93,16 +93,37 @@
     width: 100%;
 }
 
+.my-btn{
+    border: 1px solid green;
+    border-radius: 0px;
+    width: 100%;
+    margin: 10px 0;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 10px !important;
+}
+
+.about-btn{
+    width: 360px;
+    margin: 10px auto !important;
+}
+
+.btn-product{
+    width: 460px;
+    margin: 10px auto !important;
+    text-align: center;
+}
+
 .custom-btn{
     border: 1px solid green;
     border-radius: 0px;
     margin-top: 10px;
     font-weight: bolder;
-    width: 30%;
     font-size: 24px;
+    padding: 0px !important;
 }
 
-.custom-btn:hover{
+.my-btn:hover{
     transition: all 0.4s ease;
     color: #fff;
     background-color: green;

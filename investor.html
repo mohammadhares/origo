@@ -6,16 +6,17 @@
     <title>Origi!</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Font-awesome Icons -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!-------------------------------------------- Start Navbar ---------------------------------------------->
+    <!-------------------- Start Navbar -------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top dark ">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -30,16 +31,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
+                            <a class="nav-link" aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="product.html">Our Products</a>
+                            <a class="nav-link" href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
+                            <a class="nav-link" href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="investor.html">For Investors</a>
+                            <a class="nav-link" href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -48,16 +49,18 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
-                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
-                    <!-- Dark Mode -->
-                </div>
-                <input type="hidden" name="" id="viewMode" value="1">
+                <span id="status">
+                    <div class="mode" onclick="darkMode()">
+                        <i class="fa fa-moon-o"></i>
+                    </div>
+                </span>
             </div>
         </div>
     </nav>
-    <!-------------------------------------------- End Navbar ---------------------------------------------->
-    
-    <section class="menu">
+    <!-------------------- End Navbar -------------------->
+
+    <!-------------------- Start Second Menu -------------------->
+    <section class="menu brown">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-3 menu-item">The Plastic Problem</div>
@@ -67,192 +70,180 @@
             </div>
         </div>
     </section>
+    <!-------------------- End Second Menu -------------------->
 
+    <!-------------------- Start Banner Section -------------------->
     <section class="investor-banner">
+        <img src="assets/icons/circle/invest_red.png" class="hidden-12" id="invest_red_circle">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <div class="content">
-                        <h1>Invest in a </h1>
-                        <h1>fossil-free future</h1>
+                        <h1>Invest in a fossil-free future</h1>
                     </div>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <img id="banner_green_circle" class="hidden-12" src="assets/img/green_circle.png">
+                    <img class="invest-img hidden-12" src="assets/img/invent_banner.jpg">
+                </div>
             </div>
         </div>
     </section>
+    <img src="assets/icons/circle/orange_circle.png" class="hidden-12" id="invest_circle_circle">
+    <!-------------------- End Banner Section -------------------->
 
-    <section class="invest-about">
+    <!-- Start About -->
+    <section class="invest-about dark">
         <div class="container">
             <h1>The Problem With <br> conventional plastic <br> replacement</h1>
             <div class="row">
                 <div class="col-md-4 invest-item">
                     <h2>PLA</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
-                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est
                         iusto exercitationem eveniet cumque vero officiis commodi aperiam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
-                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est
                         iusto exercitationem eveniet cumque vero officiis commodi aperiam!
                     </p>
                 </div>
                 <div class="col-md-4  invest-item">
                     <h2>PAPER STRAWS</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
-                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est
                         iusto exercitationem eveniet cumque vero officiis commodi aperiam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
-                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est
                         iusto exercitationem eveniet cumque vero officiis commodi aperiam!
                     </p>
                 </div>
                 <div class="col-md-4  invest-item">
                     <h2>RICESTRAWS <sup>TM</sup></h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi 
-                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        placeat veniam magnam perspiciatis. Iure id, nobis laboriosam ut quae ullam ipsam est
                         iusto exercitationem eveniet cumque vero officiis commodi aperiam!
                     </p>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End Invest About -->
 
-    <section class="invest-capablities">
+    <section class="invest-capablities dark">
+        <img src="assets/icons/circle/red_circle.png" class="hidden-12" id="invest_red_circle_1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="row img-group" >
+                    <div class="row img-group">
                         <div class="col-md-4">
-                            <img src="assets/img/items.JPG" class="img img-responsive" alt="">
+                            <img src="assets/img/img1.JPG" class="img img-responsive" alt="">
                         </div>
                         <div class="col-md-4">
-                            <img src="assets/img/items.JPG" class="img img-responsive" alt="">
+                            <img src="assets/img/img2.JPG" class="img img-responsive" alt="">
                         </div>
                         <div class="col-md-4">
-                            <img src="assets/img/items.JPG" class="img img-responsive" alt="">
+                            <img src="assets/img/img3.JPG" class="img img-responsive" alt="">
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="content">
                         <h2>CAPABLILITIES</h2>
-                        <h1>We have a factory in <br> 
-                            Malaysia producing <br>
-                            xxKG of Biodegradable <br>
-                            food-grade materials <br>
+                        <h1>
+                            We have a factory in
+                            Malaysia producing
+                            xxKG of Biodegradable
+                            food-grade materials
                             daily.
                         </h1>
                         <p>
-                            we can also set up a micro factory at the <br> 
-                            clients production facility to reduce the <br> 
+                            we can also set up a micro factory at the
+                            clients production facility to reduce the
                             carbon footprint of our materials.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
+        <img src="assets/icons/circle/purple_circle.png" id="purple_circle_1" class="hidden-12">
     </section>
 
-    <section class="clients">
+    <section class="clients dark">
         <div class="container">
             <h2>CLIENTS WE'VE WORKED WITH</h2>
             <div class="clients-logo">
                 <div class="row">
-                    <div class="col-md-4 col-xs-12">
-                        <div class="row">
-                            <div class="col-lg-4 col-xs-4"> <img src="assets/img/client_logo_1.JPG" alt=""> </div>
-                            <div class="col-lg-4 col-xs-4"> <img src="assets/img/client_logo_2.JPG" alt=""></div>
-                            <div class="col-lg-4 col-xs-4"> <img src="assets/img/client_logo_3.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_1.JPG" alt="">
+                        <img src="assets/img/client_logo_4.JPG" alt="">
+                        <img src="assets/img/client_logo_5.JPG" alt="">
                     </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_4.JPG" alt=""></div>
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_5.JPG" alt=""></div>
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_6.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_6.JPG" alt="">
+                        <img src="assets/img/client_logo_7.JPG" alt="">
+                        <img src="assets/img/client_logo_2.JPG" alt="">
                     </div>
-                    <div class="col-md-4 col-xs-12">
-                        <div class="row">
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_7.JPG" alt=""></div>
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_8.JPG" alt=""></div>
-                            <div class="col-md-4 col-xs-4"> <img src="assets/img/client_logo_9.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_3.JPG" alt="">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_1.JPG" alt=""> </div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_2.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_3.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_1.JPG" alt="">
+                        <img src="assets/img/client_logo_4.JPG" alt="">
+                        <img src="assets/img/client_logo_5.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_4.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_5.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_6.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_6.JPG" alt="">
+                        <img src="assets/img/client_logo_7.JPG" alt="">
+                        <img src="assets/img/client_logo_2.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_7.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_8.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_9.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_3.JPG" alt="">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_1.JPG" alt=""> </div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_2.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_3.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_1.JPG" alt="">
+                        <img src="assets/img/client_logo_4.JPG" alt="">
+                        <img src="assets/img/client_logo_5.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_4.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_5.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_6.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_6.JPG" alt="">
+                        <img src="assets/img/client_logo_7.JPG" alt="">
+                        <img src="assets/img/client_logo_2.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_7.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_8.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_9.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_3.JPG" alt="">
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_1.JPG" alt=""> </div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_2.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_3.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_1.JPG" alt="">
+                        <img src="assets/img/client_logo_4.JPG" alt="">
+                        <img src="assets/img/client_logo_5.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_4.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_5.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_6.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_6.JPG" alt="">
+                        <img src="assets/img/client_logo_7.JPG" alt="">
+                        <img src="assets/img/client_logo_2.JPG" alt="">
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4"> <img src="assets/img/client_logo_7.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_8.JPG" alt=""></div>
-                            <div class="col-md-4"> <img src="assets/img/client_logo_9.JPG" alt=""></div>
-                        </div>
+                    <div class="col-lg-4 col-xs-4 text-center">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_8.JPG" alt="">
+                        <img src="assets/img/client_logo_3.JPG" alt="">
                     </div>
                 </div>
             </div>
@@ -260,7 +251,7 @@
     </section>
 
 
-
+    <img src="assets/icons/circle/green_circle.png" class="hidden-12" id="green_circle_3">
     <section class="management-team">
         <div class="container">
             <h3 class="main-title">OUR MANAGEMENT TEAM</h3>
@@ -268,14 +259,16 @@
                 <div class="col-md-4">
                     <div class="content">
                         <div class="team-img">
-                             <img src="assets/img/pic1.jpg" alt="">
+                            <img src="assets/img/pic1.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h4 class="team-name">YT Law </h4>
                             <h3>Founder</h3>
                             <h3>PhD Engineering</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at. Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti
+                                ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at.
+                                Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
                             </p>
                         </div>
                     </div>
@@ -283,14 +276,16 @@
                 <div class="col-md-4">
                     <div class="content">
                         <div class="team-img">
-                             <img src="assets/img/pic2.jpg" alt="">
+                            <img src="assets/img/pic2.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h4 class="team-name">YT Law </h4>
                             <h3>Founder</h3>
                             <h3>PhD Engineering</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at. Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti
+                                ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at.
+                                Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
                             </p>
                         </div>
                     </div>
@@ -298,14 +293,16 @@
                 <div class="col-md-4">
                     <div class="content">
                         <div class="team-img">
-                             <img src="assets/img/pic3.jpg" alt="">
+                            <img src="assets/img/pic3.jpg" alt="">
                         </div>
                         <div class="team-content">
                             <h4 class="team-name">YT Law </h4>
                             <h3>Founder</h3>
                             <h3>PhD Engineering</h3>
                             <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at. Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit blanditiis deleniti
+                                ea exercitationem repellendus natus quae, delectus laboriosam, veniam odio at.
+                                Voluptates itaque delectus doloremque asperiores, unde sed. Placeat, reprehenderit!
                             </p>
                         </div>
                     </div>
@@ -315,7 +312,42 @@
     </section>
 
 
-    <section class="prees-section">
+    <section class="certificate brown">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3">
+                    <div class="content">
+                        <h1>Certificates <br> & Awards </h1>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="img-content">
+                        <img src="assets/img/certificate/logo1.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo2.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo3.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo4.png" width="100" alt="">
+                    </div>
+                    <div class="img-content">
+                        <img src="assets/img/certificate/logo1.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo2.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo3.png" width="100" alt="">
+                        <img src="assets/img/certificate/logo4.png" width="100" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="certify-content">
+                        <img src="assets/img/certificate/certify.png" width="150" alt="">
+                        <img src="assets/img/certificate/certify2.png" width="150" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="prees-section brown">
+        <img src="assets/icons/circle/half_red.png" class="hidden-12" id="half_red_circle">
+        <img src="assets/icons/circle/green_circle.png" class="hidden-12" id="green_circle_4">
         <div class="container">
             <h3>PRESS</h3>
             <div class="row">
@@ -328,13 +360,13 @@
                             29 Jan 2022
                         </div>
                         <h2>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis, 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis,
                         </h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Suscipit blanditiis deleniti ea exercitationem repellendus
-                              natus quae, delectus laboriosam, veniam odio at. Voluptates
-                               itaque delectus doloremque asperiores, unde sed. Placeat ...
+                            Suscipit blanditiis deleniti ea exercitationem repellendus
+                            natus quae, delectus laboriosam, veniam odio at. Voluptates
+                            itaque delectus doloremque asperiores, unde sed. Placeat ...
                         </p>
                     </div>
                 </div>
@@ -347,13 +379,13 @@
                             29 Jan 2022
                         </div>
                         <h2>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis, 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis,
                         </h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Suscipit blanditiis deleniti ea exercitationem repellendus
-                              natus quae, delectus laboriosam, veniam odio at. Voluptates
-                               itaque delectus doloremque asperiores, unde sed. Placeat ...
+                            Suscipit blanditiis deleniti ea exercitationem repellendus
+                            natus quae, delectus laboriosam, veniam odio at. Voluptates
+                            itaque delectus doloremque asperiores, unde sed. Placeat ...
                         </p>
                     </div>
                 </div>
@@ -366,13 +398,13 @@
                             29 Jan 2022
                         </div>
                         <h2>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis, 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis,
                         </h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Suscipit blanditiis deleniti ea exercitationem repellendus
-                              natus quae, delectus laboriosam, veniam odio at. Voluptates
-                               itaque delectus doloremque asperiores, unde sed. Placeat ...
+                            Suscipit blanditiis deleniti ea exercitationem repellendus
+                            natus quae, delectus laboriosam, veniam odio at. Voluptates
+                            itaque delectus doloremque asperiores, unde sed. Placeat ...
                         </p>
                     </div>
                 </div>
@@ -385,13 +417,13 @@
                             29 Jan 2022
                         </div>
                         <h2>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis, 
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero facilis,
                         </h2>
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Suscipit blanditiis deleniti ea exercitationem repellendus
-                              natus quae, delectus laboriosam, veniam odio at. Voluptates
-                               itaque delectus doloremque asperiores, unde sed. Placeat ...
+                            Suscipit blanditiis deleniti ea exercitationem repellendus
+                            natus quae, delectus laboriosam, veniam odio at. Voluptates
+                            itaque delectus doloremque asperiores, unde sed. Placeat ...
                         </p>
                     </div>
                 </div>
@@ -399,14 +431,14 @@
         </div>
     </section>
 
-    <div class="text-center">
-        <a href="" class="btn custom-btn">
+    <div class="text-center brown">
+        <a href="" class="btn custom-btn light">
             Load more
         </a>
+        <br>
+        <br>
+        <br>
     </div>
-    <br>
-    <br>
-    <br>
 
     <footer>
         <div class="row">
@@ -477,8 +509,9 @@
         </div>
     </footer>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-   <script src='assets/js/bootstrap.bundle.min.js'></script>
-   <!-- Custom JS -->
-   <script src='assets/js/script.js'></script>
+    <script src='assets/js/bootstrap.bundle.min.js'></script>
+    <!-- Custom JS -->
+    <script src='assets/js/script.js'></script>
 </body>
+
 </html>

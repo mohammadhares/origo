@@ -12,9 +12,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
-<body>
+<body >
     <!-------------------------------------------- Start Navbar ---------------------------------------------->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top dark ">
         <div class="container-fluid">
@@ -30,16 +31,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
+                            <a class="nav-link " aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="product.html">Our Products</a>
+                            <a class="nav-link " href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
+                            <a class="nav-link " href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="investor.html">For Investors</a>
+                            <a class="nav-link " href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -48,10 +49,11 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
-                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
-                    <!-- Dark Mode -->
-                </div>
-                <input type="hidden" name="" id="viewMode" value="1">
+                <span id="status">
+                    <div class="mode" onclick="darkMode()">
+                        <i class="fa fa-moon-o"></i>
+                    </div>
+                </span>
             </div>
         </div>
     </nav>
@@ -77,6 +79,7 @@
                 </div>
                 <div class="col-md-6">
                     <img src="assets/img/purple_circle.png" id="product_purple_circle_1" alt="">
+                    <img src="assets/img/oval.png" id="product_oval_1" alt="">
                 </div>
             </div>
         </div>
@@ -86,18 +89,18 @@
 
 
 
-    <section class="product-category">
+    <section class="product-category brown">
         <div class="container">
             <div class="category-btns">
-                <a href="">Utensils</a>
-                <a href="" class="active">Packaging</a>
-                <a href="">Dinnerware</a>
+                <a href="" class="light">Utensils</a>
+                <a href="" class="active light">Packaging</a>
+                <a href="" class="light">Dinnerware</a>
             </div>
         </div>
     </section>
 
 
-    <section class="product-list">
+    <section class="product-list brown">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -180,7 +183,7 @@
                 </div>
             </div>
             <div class="text-center">
-                <a href="" class="btn custom-btn">Download Our Product Catalog </a>
+                <a href="" class="btn custom-btn light">Download Our Product Catalog </a>
             </div>
         </div>
     </section>

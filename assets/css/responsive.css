@@ -109,3 +109,296 @@
     font-size: 16px;
    }
 }
+
+
+@media screen and (max-width: 1800px) {
+    body{
+        background-color: tomato !important;
+    }
+
+    .menu{
+        top: 90px;
+    }
+
+    .hidden-12{
+        display: none;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    body{
+        background-color: dodgerblue !important;
+    }
+
+    .menu{
+        top: 70px;
+    }
+
+    .menu{
+        top: 70px;
+    }
+
+    .investor-banner .content h1{
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .invest-about h1{
+        text-align: center;
+    }
+
+    .invest-about .invest-item{
+        padding: 10px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .invest-about .invest-item p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .invest-capablities .img-group img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .invest-capablities .img-group{
+        padding: 0;
+        margin: 0;
+    }
+
+    .invest-capablities .content{
+        text-align: center;
+    }
+
+    .invest-capablities .content h1{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .invest-capablities .content p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .invest-capablities{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .clients h2{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 24px;
+    }
+
+    .clients{
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .management-team{
+        padding: 70px 5px;
+    }
+
+    .management-team .main-title{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .management-team p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .management-team .content{
+        margin: 20px 0px;
+    }
+
+    .certificate {
+        padding: 50px 10px;
+    }
+
+    .certificate .content h1{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .prees-section{
+        padding: 50px 10px;
+        text-align: center;
+    }
+
+    .prees-section h3{
+        text-align: center;
+    }
+
+    .prees-section .content{
+        margin: 20px 0px;
+    }
+
+    .custom-btn {
+        margin: 10px;
+        width: 300px !important;
+    }
+
+    footer{
+        text-align: left;
+    }
+
+    footer .footer-left div{
+        margin: 20px 0px;
+    }
+
+    footer .footer-right{
+        padding: 30px;
+        text-align: center;
+    }
+
+    .footer-btn{
+        width: 100px;
+        margin: 10px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    body{
+        background-color: yellowgreen !important;
+    }
+
+    .menu{
+        top: 70px;
+    }
+
+    .investor-banner .content h1{
+        font-size: 5vh;
+        text-align: center;
+    }
+
+    .invest-about h1{
+        text-align: center;
+    }
+
+    .invest-about .invest-item{
+        padding: 10px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .invest-about .invest-item p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .invest-capablities .img-group img{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .invest-capablities .img-group{
+        padding: 0;
+        margin: 0;
+    }
+
+    .invest-capablities .content{
+        text-align: center;
+    }
+
+    .invest-capablities .content h1{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .invest-capablities .content p{
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .invest-capablities{
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .clients h2{
+        text-align: center;
+        letter-spacing: 4px;
+        font-size: 24px;
+    }
+
+    .clients{
+        padding: 10px;
+        margin: 0px;
+    }
+
+    .management-team{
+        padding: 70px 5px;
+    }
+
+    .management-team .main-title{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    .management-team p{
+        padding: 0;
+        margin: 0;
+    }
+
+    .management-team .content{
+        margin: 20px 0px;
+    }
+
+    .certificate {
+        padding: 50px 10px;
+    }
+
+    .certificate .content h1{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 5px;
+    }
+
+    .prees-section{
+        padding: 50px 10px;
+        text-align: center;
+    }
+
+    .prees-section h3{
+        text-align: center;
+    }
+
+    .prees-section .content{
+        margin: 20px 0px;
+    }
+
+    .custom-btn {
+        margin: 10px;
+        width: 300px !important;
+    }
+
+    footer{
+        text-align: left;
+    }
+
+    footer .footer-left div{
+        margin: 20px 0px;
+    }
+
+    footer .footer-right{
+        padding: 30px;
+        text-align: center;
+    }
+
+    .footer-btn{
+        width: 100px;
+        margin: 10px;
+    }
+}

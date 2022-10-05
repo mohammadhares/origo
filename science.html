@@ -11,6 +11,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -29,16 +30,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
+                            <a class="nav-link " aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="product.html">Our Products</a>
+                            <a class="nav-link " href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
+                            <a class="nav-link " href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="investor.html">For Investors</a>
+                            <a class="nav-link " href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -47,16 +48,17 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
-                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
-                    
-                </div>
-                <input type="hidden" name="" id="viewMode" value="1">
+                <span id="status">
+                    <div class="mode" onclick="darkMode()">
+                        <i class="fa fa-moon-o"></i>
+                    </div>
+                </span>
             </div>
         </div>
     </nav>
     <!-------------------------------------------- End Navbar ---------------------------------------------->
     
-    <section class="menu">
+    <section class="menu brown">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-4 col-md-4 col-xs-4 menu-item sub-item-active">Our Materials</div>
@@ -84,7 +86,7 @@
         </div>
     </section>
 
-    <section class="science-info">
+    <section class="science-info brown">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -136,6 +138,12 @@
             <img src="assets/img/orange_circle.png" id="invent_orange_circle" alt="">
             <img src="assets/img/red_one_tree.png" id="invent_red_circle" alt="">
             <img src="assets/img/half_green.png" id="invent_green_circle" alt="">
+
+            <img src="assets/img/science/img4.png" id="invent_black_line" class="abs" alt="">
+            <img src="assets/img/science/img5.png" id="invent_green_line" class="abs" alt="">
+            <img src="assets/img/science/img6.png" id="invent_gray_line" class="abs" alt="">
+            <img src="assets/img/science/img7.png" id="invent_pink_line" class="abs" alt="">
+            <img src="assets/img/science/img8.png" id="invent_yellow_line" class="abs" alt="">
             <div class="part_2">
                 <h1>Therefore,</h1>
                 <h1 class="number">30,996,965</h1>
@@ -163,13 +171,38 @@
         </div>
     </section>
 
+    <section class="plastic">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-9">
+                    <div class="text-center">
+                        <img src="assets/img/science/img9.png"  alt="">
+                    </div>
+                    <div class="text-center img">
+                        <img src="assets/img/science/img10.jpg"  alt="">
+                        <h3 class="text-center">Day 1</h3>
+                    </div>
+                    <div class="text-center img">
+                        <img src="assets/img/science/img11.jpg"  alt="">
+                        <h3 class="text-center">Day 60</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <section class="product_vedio">
         <div class="container">
+            <img src="assets/img/science/flower.png" id="flower" class="abs" alt="">
             <div class="content">
                 <h1>Feeding Fishes</h1>
                 <h1>With RiceStraws <sup>TM </sup></h1>
+                <img src="assets/img/science/play.png" id="play" class="abs" alt="">
             </div>
+            <img src="assets/img/science/fish.png" id="fish" class="abs" alt="">
+            <img src="assets/img/science/heart.png" id="heart" class="abs" alt="">
         </div>
     </section>
     

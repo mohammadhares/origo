@@ -342,7 +342,7 @@ footer{
 
 .product_lifecycle .content{
     width: 40%;
-    padding: 120px 10px;
+    padding: 120px 10px 10px;
 }
 
 .btn-content{
@@ -433,7 +433,7 @@ footer{
 
 .product-category{
     width: 100%;
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -452,8 +452,8 @@ footer{
 }
 
 .product-list{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .product-list .row{
@@ -543,7 +543,7 @@ footer{
 
 .investor-banner .content{
     padding: 50px;
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .investor-banner .content h1{
@@ -571,6 +571,10 @@ footer{
     font-weight: bold;
 }
 
+.invest-capablities{
+    padding: 150px 0px;
+}
+
 .invest-capablities .img-group div img{
     width: 95%;
 }
@@ -596,7 +600,7 @@ footer{
 }
 
 .clients{
-    margin: 200px 10px;
+    padding: 70px 10px;
 }
 
 .clients h2{
@@ -611,6 +615,12 @@ footer{
     vertical-align: center;
 }
 
+.clients .clients-logo img{
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+}
+
 .management-team{
     padding: 180px 50px;
     background-color: rgb(242 , 242, 242);
@@ -622,6 +632,7 @@ footer{
 
 .management-team .content .team-img img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .management-team .content .team-name{
@@ -687,6 +698,10 @@ footer{
 .mode{
     cursor: pointer;
     padding-right: 20px;
+}
+
+.mode i{
+    font-size: 27px;
 }
 
 
@@ -857,7 +872,9 @@ footer{
 }
 
 
-
+.primary-dark-color .nav-link{
+    color: white !important;
+}
 
 
 
@@ -914,20 +931,20 @@ footer{
 
 #invent_orange_circle{
     position: absolute;
-    right: 300px;
-    margin-top: -200px;
+    right: 200px;
+    margin-top: -280px;
 }
 
 #invent_red_circle{
     position: absolute;
     right: 0;
-    margin-top: 50px;
+    margin-top: -150px;
 }
 
 #invent_green_circle{
     position: absolute;
     right: 0;
-    margin-top: -120px;
+    margin-top: -250px;
 }
 
 #product_purple_circle_2{
@@ -985,3 +1002,238 @@ footer{
     top: -30px;
     left: -150px;
 }
+
+
+/*Invest*/
+.invest-img{
+    width: 500px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+#invest_red_circle{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+#banner_green_circle{
+    position: absolute;
+    margin-top: 170px;
+    z-index: 99;
+    right: 680px;
+}
+
+#invest_circle_circle{
+    position: absolute;
+    right: 180px;
+    margin-top: 10px;
+}
+
+#purple_circle_1{
+    position: absolute;
+    left: 670px;
+    margin-top: -220px;
+    z-index: -99;
+}
+
+#invest_red_circle_1{
+    position: absolute;
+    left: 220px;
+    margin-top: -130px;
+    z-index: -99;
+}
+
+#green_circle_3{
+    position: absolute;
+    left: 100px;
+    margin-top: -160px;
+}
+
+#purple_circle_quar{
+    position: absolute;
+    right: 0;
+}
+
+#half_red_circle{
+    position: absolute;
+    right: 0;
+    margin-top: 250px;
+}
+
+#green_circle_4{
+    position: absolute;
+    right: 200px;
+    z-index: -99;
+}
+
+
+.certificate{
+    padding-top: 150px;
+}
+
+.certificate .content h1{
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.certificate .img-content{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.certificate .img-content img{
+    margin: 10px;
+}
+
+.certificate .certify-content{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#rice_huck{
+    position: absolute;
+    width: 600px;
+    margin-top: -150px;
+    margin-left: 150px;
+}
+
+#rice_huck_2{
+    position: absolute;
+}
+
+#rice_huck_3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 250px;
+    z-index: 99;
+}
+
+#oval_1{
+    position: absolute;
+    transform: rotate(50deg)
+}
+
+#oval_2{
+    position: absolute;
+    transform: rotate(50deg);
+    margin-top: 300px;
+    right: 100px;
+}
+
+#oval_3{
+    position: absolute;
+    transform: rotate(-40deg);
+    margin-top: 400px;
+    right: 350px;
+}
+
+#product_oval_1{
+    position: absolute;
+    width: 700px;
+    transform: rotate(45deg);
+    margin-top: 120px;
+    margin-left: 90px;
+}
+
+
+.abs{
+    position: absolute;
+}
+
+#invent_black_line{
+    right: 0px;
+    margin-top: -650px;
+}
+
+#invent_green_line{
+    right: 0px;
+    margin-top: -555px;
+}
+
+#invent_gray_line{
+    right: 0px;
+    margin-top: -500px;
+}
+
+#invent_pink_line{
+    right: 0px;
+    margin-top: -400px;
+}
+
+#invent_yellow_line{
+    right: 0px;
+    margin-top: -300px;
+}
+
+.plastic{
+    width: 100%;
+    padding: 70px 10px 120px;
+}
+
+.plastic .img img{
+    width: 80%;
+    margin: 30px auto;
+}
+
+#flower{
+    margin-top: -205px;
+}
+
+#fish{
+    right: 230px;
+    margin-top: -60px;
+}
+
+#heart{
+    right: 230px;
+    margin-top: -150px;
+}
+
+#play{
+    margin-left: 27%;
+    margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

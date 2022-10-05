@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
@@ -28,16 +29,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
+                            <a class="nav-link" aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="product.html">Our Products</a>
+                            <a class="nav-link" href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
+                            <a class="nav-link" href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="investor.html">For Investors</a>
+                            <a class="nav-link" href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -46,10 +47,11 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
-                <div class="mode" status="1" onclick="darkMode()">
-                    Dark Mode
-                </div>
-                <input type="hidden" name="" id="viewMode" value="1">
+                <span id="status">
+                    <div class="mode" onclick="darkMode()">
+                        <i class="fa fa-moon-o"></i>
+                    </div>
+                </span>
             </div>
         </div>
     </nav>

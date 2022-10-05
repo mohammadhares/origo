@@ -12,6 +12,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -30,16 +31,16 @@
                     <div class="row">
                         <div class="col-lg-2"></div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" aria-current="page" href="science.html">The Science </a>
+                            <a class="nav-link" aria-current="page" href="science.html">The Science </a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="product.html">Our Products</a>
+                            <a class="nav-link" href="product.html">Our Products</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="bussiness.html">For Businesses</a>
+                            <a class="nav-link" href="bussiness.html">For Businesses</a>
                         </div>
                         <div class="col-lg-2">
-                            <a class="nav-link dark" href="investor.html">For Investors</a>
+                            <a class="nav-link" href="investor.html">For Investors</a>
                         </div>
                         <div class="col-lg-2 text-right"></div>
                     </div>
@@ -48,16 +49,17 @@
                     <p>100% Biodegradable</p>
                     <p>100% Science</p>
                 </div>
-                <div class="mode" status="1" onclick="darkMode(document.getElementById('viewMode').value)">
-                    <!-- Dark Mode -->
-                </div>
-                <input type="hidden" name="" id="viewMode" value="1">
+                <span id="status">
+                    <div class="mode" onclick="darkMode()">
+                        <i class="fa fa-moon-o"></i>
+                    </div>
+                </span>
             </div>
         </div>
     </nav>
     <!-------------------------------------------- End Navbar ---------------------------------------------->
     
-    <section class="menu">
+    <section class="menu brown">
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-4 menu-item">Our Materials</div>
@@ -80,16 +82,19 @@
                 </div>
                 <div class="col-md-6">
                     <img src="assets/img/half_green.png" id="business_green_circle_1" alt="">
+                    <img src="assets/img/rice_huck.png" id="rice_huck" width="400" alt="">
                 </div>
             </div>
         </div>
     </section>
     <img src="assets/img/purple_circle.png" id="business_purple_circle" alt="">
 
-    <section class="business-about">
+    <section class="business-about brown">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">                    
+                <div class="col-md-6">  
+                    <img src="assets/img/rice_half.png" width="350" id="rice_huck_2" alt="">                  
+                    <img src="assets/img/rice_huck.png" width="350" id="rice_huck_3" alt="">                  
                 </div>
                 <div class="col-md-6">
                     <div class="content">
@@ -116,7 +121,7 @@
     <img src="assets/img/orange_circle.png" id="business_orange_circle" alt="">
     <img src="assets/img/red_circle.png" id="business_red_circle" alt="">
 
-    <section class="business-gallary">
+    <section class="business-gallary ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 ">
@@ -158,7 +163,7 @@
     <br>
     <br>
     <br>
-    <section class="business-about about-micro">
+    <section class="business-about about-micro brown">
         <div class="container">
             <div class="row">
                 <div class="col-md-6"> 
@@ -181,7 +186,9 @@
                     </div>                   
                 </div>
                 <div class="col-md-6">
-                    
+                    <img src="assets/img/oval.png" id="oval_1" width="450" alt="">
+                    <img src="assets/img/oval.png" id="oval_2" width="450" alt="">
+                    <img src="assets/img/oval.png" id="oval_3" width="450" alt="">
                 </div>
             </div>
         </div>

@@ -63,6 +63,142 @@
         padding: 0;
     }
 
+    /* Science */
+
+    .science_banner .content{
+        padding: 100px 10px;
+    }
+
+    .science_banner .content h1{
+        text-align: center;
+        font-size: 30px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .science-info{
+        text-align: center;
+    }
+
+    .science-info .science_item_1, .science-info .science_item_2{
+        text-align: center;
+        padding: 0;
+        margin: 10px 0;
+        font-size: 24px;
+    }
+
+    .invented{
+        text-align: center;
+    }
+
+    .invented .number{
+        text-align: center !important;
+        font-size: 50px !important;
+    }
+
+    .invented .number_sub{
+        padding: 0;
+        margin: 10px 0;
+        font-size: 30px !important;
+    }
+
+    .product_lifecycle{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .product_lifecycle .content{
+        text-align: center;
+        padding: 50px 5px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .product_lifecycle .content h2{
+        letter-spacing: 2px;
+    }
+
+    .product_lifecycle .content h1{
+        padding: 10px;
+        margin: 10px 0px;
+        font-size: 25px;
+    }
+
+    .product_lifecycle .content p{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .product_vedio .content h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .product_vedio .content{
+        margin: 0;
+    }
+
+    #banner_purple_circle{
+        margin-top: 500px;
+    }
+
+    #play{
+        margin-left: 70px;
+    }
+
+    /* Product */
+
+    .product-category .category-btns a{
+        display: block;
+    }
+
+    .product-banner{
+        text-align: center;
+    }
+
+    .product-banner h1{
+        font-size: 40px;
+    }
+
+    .product-banner p{
+        text-align: center;
+        padding: 0;
+    }
+
+    /* Business */
+    .business-banner .title h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .business-about .content{
+        padding: 70px 0px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .business-about .content h3{
+        text-align: center;
+    }
+
+    .business-about .content h1{
+        text-align: center;
+        padding: 0;
+    }
+
+    .business-about .content p{
+        text-align: center;
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+    .business-gallary img{
+        margin: 5px;
+    }
+
+
 
 
     #status{

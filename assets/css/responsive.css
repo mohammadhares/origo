@@ -1,6 +1,195 @@
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 1024px) and (max-width: 1600px){
+    body{
+        background-color: purple;
+    }
 
-    /* Home */
+    .nav-link{
+        font-size: small;
+    } 
+
+    #rice_huck{
+        width: 35%;
+    }
+
+    #business_green_circle_1{
+        width: 10%;
+    }
+
+    #business_orange_circle_2{
+        width: 20%;
+    }
+
+    #business_purple_circle{
+        width: 20%;
+        margin-top: -300px;
+    }
+
+    /* The Science */
+    #science_top_ban{
+        transition: all 2s ease;
+        top: 160px !important;
+    }
+
+    #banner_red_circle{
+        transition: all 2s ease;
+        top: 450px !important;
+        right: 450px !important;
+    }
+
+    /* Product */
+    #product_oval_1{
+        transition: all 2s ease;
+        width: 40%;
+        border-radius: 160px;
+    }
+
+    /* Invstors */
+    #invest-img{
+        width: 30%;
+        transition: all 2s ease;
+    }
+
+    #banner_green_circle{
+        transition: all 2s ease;
+        right: 400px;
+        width: 20% !important;
+    }
+
+    #invest_circle_circle{
+        transition: all 2s ease;
+        right: 60px;
+        width: 20% !important;
+    }
+
+    #invest_red_circle_1{
+        transition: all 2s ease;
+        width: 20%;
+        left: 130px;
+    }
+
+    #purple_circle_1{
+        display: none;
+    }
+
+    #oval_1 , #oval_2 , #oval_3{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    body{
+        background-color: tomato;
+    }
+
+    #oval_1 , #oval_2 , #oval_3{
+        display: none;
+    }
+
+    .business-banner .title h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .business-about .content{
+        padding: 70px 0px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .business-about .content h3{
+        text-align: center;
+    }
+
+    .business-about .content h1{
+        text-align: center;
+        padding: 0;
+    }
+
+    .business-about .content p{
+        text-align: center;
+        padding: 0;
+        margin: 20px 0px;
+    }
+
+    .business-gallary img{
+        margin: 5px;
+    }
+
+
+    
+
+    .nav-link{
+        font-size: small;
+    } 
+
+    #rice_huck{
+        width: 35%;
+    }
+
+    #business_green_circle_1{
+        width: 10%;
+    }
+
+    #business_orange_circle_2{
+        width: 20%;
+    }
+
+    #business_purple_circle{
+        width: 20%;
+        margin-top: -300px;
+    }
+
+    /* The Science */
+
+    #science_top_ban{
+        transition: all 2s ease;
+        top: 160px !important;
+    }
+
+    #banner_red_circle{
+        transition: all 2s ease;
+        top: 400px !important;
+        right: 200px !important;
+    }
+    
+    .hidden-tb{
+        display: none;
+    }
+
+    /* Product */
+
+
+    /* Investor */
+     /* Invstors */
+     #invest-img{
+        width: 35%;
+        transition: all 2s ease;
+    }
+
+    #banner_green_circle{
+        transition: all 2s ease;
+        right: 300px;
+        width: 20% !important;
+    }
+
+    #invest_circle_circle{
+        transition: all 2s ease;
+        right: 60px;
+        width: 20% !important;
+    }
+    
+    #purple_circle_1{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    
+    .hidden-12{
+        display: none;
+    }
 
     .about .about_title{
         letter-spacing: 3px;
@@ -315,170 +504,6 @@
    .contact p{
     font-size: 16px;
    }
-}
-
-
-@media screen and (max-width: 1800px) {
-    /* body{
-        background-color: tomato !important;
-    } */
-
-    .menu{
-        top: 90px;
-    }
-
-    .hidden-12{
-        display: none;
-    }
-    
-}
-
-
-
-@media screen and (max-width: 1000px) {
-    /* body{
-        background-color: dodgerblue !important;
-    } */
-
-    .menu{
-        top: 70px;
-    }
-
-    .menu{
-        top: 70px;
-    }
-
-    .investor-banner .content h1{
-        font-size: 5vh;
-        text-align: center;
-    }
-
-    .invest-about h1{
-        text-align: center;
-    }
-
-    .invest-about .invest-item{
-        padding: 10px;
-        text-align: center;
-        margin: 10px 0px;
-    }
-
-    .invest-about .invest-item p{
-        padding: 0;
-        margin: 0;
-    }
-
-    .invest-capablities .img-group img{
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .invest-capablities .img-group{
-        padding: 0;
-        margin: 0;
-    }
-
-    .invest-capablities .content{
-        text-align: center;
-    }
-
-    .invest-capablities .content h1{
-        padding: 0;
-        margin: 0;
-        font-size: 20px;
-    }
-
-    .invest-capablities .content p{
-        text-align: center;
-        font-size: 16px;
-    }
-
-    .invest-capablities{
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .clients h2{
-        text-align: center;
-        letter-spacing: 4px;
-        font-size: 24px;
-    }
-
-    .clients{
-        padding: 10px;
-        margin: 0px;
-    }
-
-    .management-team{
-        padding: 70px 5px;
-    }
-
-    .management-team .main-title{
-        font-size: 20px;
-        letter-spacing: 3px;
-    }
-
-    .management-team p{
-        padding: 0;
-        margin: 0;
-    }
-
-    .management-team .content{
-        margin: 20px 0px;
-    }
-
-    .certificate {
-        padding: 50px 10px;
-    }
-
-    .certificate .content h1{
-        text-align: center;
-        font-size: 25px;
-        letter-spacing: 5px;
-    }
-
-    .prees-section{
-        padding: 50px 10px;
-        text-align: center;
-    }
-
-    .prees-section h3{
-        text-align: center;
-    }
-
-    .prees-section .content{
-        margin: 20px 0px;
-    }
-
-    .custom-btn {
-        margin: 10px;
-        width: 300px !important;
-    }
-
-    footer{
-        text-align: left;
-    }
-
-    footer .footer-left div{
-        margin: 20px 0px;
-    }
-
-    footer .footer-right{
-        padding: 30px;
-        text-align: center;
-    }
-
-    .footer-btn{
-        width: 100px;
-        margin: 10px;
-    }
-}
-
-
-@media screen and (max-width: 400px) {
-    /* body{
-        background-color: yellowgreen !important;
-    } */
 
     .menu{
         top: 70px;

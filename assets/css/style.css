@@ -10,7 +10,7 @@
 /* Navbar */
 .nav-link{
     cursor: pointer;
-    font-size: 2.2vh;
+    font-size: 1.8vh;
     font-weight: bolder;
     color: #000;
 }
@@ -411,18 +411,22 @@ footer{
 .menu{
     background-color: rgb(242, 242, 242);
     z-index: 100 !important;
-    position: relative;
+    position: fixed;
     top: 70px;
+    width: 100%;
 }
 
 .menu-item{
     border-left: 1px solid white;
     border-right: 1px solid white;
     padding: 10px;
+}
+
+.menu .menu-item a{
+    text-decoration: none;
     color: #888;
     font-size: 18px;
 }
-
 
 
 
@@ -559,17 +563,18 @@ footer{
 
 .investor-banner{
     background-color: rgb(146, 123, 191);
-    height: 600px;
+    height: 700px;
 }
 
 .investor-banner .content{
     padding: 50px;
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 .investor-banner .content h1{
     font-size: 7vh;
     font-weight: bolder;
+    margin-top: 50px;
 }
 
 .invest-about{
@@ -1227,7 +1232,9 @@ footer{
 }
 
 
-
+.clients-logo img{
+    margin: 15px !important;
+}
 
 
 

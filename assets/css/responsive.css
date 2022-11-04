@@ -1,10 +1,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1600px){
-    body{
-        background-color: purple;
-    }
-
+   
     .nav-link{
-        font-size: small;
+        /* font-size: small; */
     } 
 
     #rice_huck{
@@ -77,8 +74,10 @@
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-    body{
-        background-color: tomato;
+    .clients .clients-logo img{
+        width: 100px;
+        height: 100px;
+        margin: 0;
     }
 
     #oval_1 , #oval_2 , #oval_3{
@@ -185,7 +184,6 @@
 
 
 @media screen and (max-width: 767px) {
-
     
     .hidden-12{
         display: none;
@@ -263,6 +261,7 @@
         font-size: 30px;
         padding: 0;
         margin: 0;
+        margin-top: 150px;
     }
 
     .science-info{
@@ -274,6 +273,10 @@
         padding: 0;
         margin: 10px 0;
         font-size: 24px;
+    }
+
+    .youtube-vedio{
+        height: 200px;
     }
 
     .invented{
@@ -341,6 +344,7 @@
 
     .product-category .category-btns a{
         display: block;
+        margin: 0;
     }
 
     .product-banner{
@@ -633,4 +637,29 @@
         width: 100px;
         margin: 10px;
     }
+}
+
+
+@media screen and (max-width: 575px){
+
+    .menu .mobile-row{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+    }
+    
+    .menu .mobile-row .menu-item a{
+        font-size: 12px;
+    }
+
+    .menu .invest-mobile-row{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        width: 100%;
+    }
+
+    .menu .invest-mobile-row .menu-item a{
+        font-size: 14px;
+    }
+
 }

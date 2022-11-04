@@ -1,8 +1,17 @@
+@font-face {
+    font-family: DMregular;
+    src: url('../../fonts/fonts/DMSans-Regular.woff');
+}
+
 *{
     font-family: 'Arial';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4 , h5 , h6 , p , div , a {
+    font-family: DMregular !important;
 }
 
 
@@ -104,8 +113,12 @@
 }
 
 .about-btn{
-    width: 360px;
+    /* width: 360px; */
     margin: 10px auto !important;
+}
+
+.cust{
+    width: 360px !important;
 }
 
 .btn-product{
@@ -136,15 +149,16 @@
     padding-bottom: 120px;
 }
 
-.product img{
+.product img.img{
     margin: auto;
-    height: 180px;
+    height: 100px;
+    width: 100px;
 }
 
 .product p{
     margin-top: 20px;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .product-btn{
@@ -209,6 +223,8 @@
     color: orange;
     padding-top: 10px;
     font-weight: bold;
+    font-size: 24px;
+
 }
 
 .item h5{
@@ -217,7 +233,6 @@
 
 .item p{
     padding: 10px 70px;
-    font-size: 24px;
     color: rgba(0, 130, 0, 0.666);
 }
 
@@ -273,6 +288,7 @@ footer{
 .footer-left ul li a{
     text-decoration: none;
     color: white;
+    font-size: 14px;
 }
 
 .footer-right{
@@ -291,6 +307,11 @@ footer{
    width: 100%;
    margin: 20px;
    border-radius: 0px;
+   font-size: 14px;
+}
+
+.footer-right ul li{
+    font-size: 14px;
 }
 
 
@@ -316,9 +337,10 @@ footer{
 }
 
 .science_item_1{
-    padding-right: 40%;
+    padding-right: 20px;
     font-weight: bold;
     font-size: 40px;
+    max-width: 600px;
 }
 
 .science_item_2{
@@ -391,7 +413,7 @@ footer{
 .product_vedio .content{
     background-color: rgb(221, 221, 221);
     padding: 80px;
-    height: 650px;
+    height: inherit;
 }
 
 .product_vedio .content h1{
@@ -400,6 +422,11 @@ footer{
     font-weight: bolder;
 }
 
+
+.youtube-vedio{
+    width: 100%;
+    height: 615px;
+}
 
 
 
@@ -452,7 +479,7 @@ footer{
     font-weight: bold;
     padding-right: 100px;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -469,6 +496,12 @@ footer{
     border-radius: 20px;
     color: #333;
     margin: 10px;
+}
+
+.category-btns a:hover{
+    transition: all 1s ease;
+    background-color: rgb(94, 170, 103);
+    border: 2px solid rgb(94, 170, 103) !important;
 }
 
 .active{
@@ -534,7 +567,7 @@ footer{
 
 .business-about .content p{
     padding: 50px 120px 50px 0px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .about-btn{
@@ -594,7 +627,7 @@ footer{
 
 .invest-about .invest-item p{
     padding-right: 80px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .invest-capablities{
@@ -639,11 +672,15 @@ footer{
 .clients .clients-logo .row{
     margin: 20px 0px;
     vertical-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clients .clients-logo img{
+    /* width: 100px;
+    height: 100px; */
     width: 100px;
-    height: 100px;
     margin: 2px;
 }
 
@@ -658,7 +695,7 @@ footer{
 
 .management-team .content .team-img img{
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
 }
 
 .management-team .content .team-name{
@@ -672,8 +709,7 @@ footer{
 }
 
 .management-team .content p{
-    padding: 10px 50px;
-    font-weight: bold;
+    padding: 0px 50px;
     font-size: 18px;
 }
 
